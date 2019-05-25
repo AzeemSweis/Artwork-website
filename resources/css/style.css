@@ -1,0 +1,412 @@
+/*
+Orange color: #e67e22
+*/
+
+/* ------------------------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ----- HEADINGS ------ */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 4px;
+}
+
+h2 {
+    padding-bottom: 45px;
+    color: #fff;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 0.1em;
+    padding-top: 30px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 2vw;
+}
+
+/* ----- PARAGRAPHS ----- */
+.Info-box-A-of-S {
+    margin-left: 50%;
+    margin-top: -30.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-B-P {
+    margin-left: 50%;
+    margin-top: -23.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-VCP {
+    margin-left: 50%;
+    margin-top: -28.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-1-in-3 {
+    margin-left: 50%;
+    margin-top: -30.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-angelicpopcorn {
+    margin-left: 50%;
+    margin-top: -25.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-CPM {
+    margin-left: 50%;
+    margin-top: -30.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-BandC {
+    margin-left: 50%;
+    margin-top: -27.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-DP {
+    margin-left: 50%;
+    margin-top: -29.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-FC {
+    margin-left: 50%;
+    margin-top: -29.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+
+
+p {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 1.3vw;
+}
+
+/* ----- ICONS ----- */
+/*.sm-icons {
+    font-size: 350%;
+    display: block;
+    color: #fff;
+    margin: 10px 10px;
+}*/
+
+/* ----- BUTTONS ----- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e76e22;
+    margin-right: 20px;
+}
+
+.btn-social:link,
+.btn-social:visited {
+    border: 1px solid #e76e22;
+    color: #e76e22;
+    margin-right: 20px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-social:hover,
+.btn-social:active {
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/art_gallery.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-text-box {
+    padding-left: 30px;
+    margin-top: 5%;
+    /*padding-bottom: 30px;*/
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.icon ion-logo-instagram{
+    font-size: 200%;
+}
+
+/* ------------------------------------------------------------- */
+/* GALLERY SHOWCASE IMAGES */
+/* ------------------------------------------------------------- */
+
+.gallery-showcase {
+    padding-left: 250px;
+    display: block;
+}
+
+.showcase-photo {
+}
+
+.showcase-photo img {
+    transform: scale(1.15);
+    transition: transform 0.5s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.showcase-photo img:hover {
+    transform: scale(1.03);
+}
+
+.left-showcase {
+    margin-left: -25%
+}
+
+.middle-showcase {
+    
+}
+
+.right-showcase {
+    margin-left: 25%;
+}
+
+/* ------------------------------------------------------------- */
+/* MAIN GALLERY */
+/* ------------------------------------------------------------- */
+
+/*.gallery-listings {
+    list-style: none;
+    width: 100%;
+}
+
+.gallery-listings li {
+    display: block;
+    float: left;
+    width: 25%
+}*/
+
+.main-gallery {
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+/*.gallery-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+}*/
+
+.gallery-photo img {
+    transform: scale (1.40);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.gallery-photo img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    
+}
+
+.gal-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------- */
+/* INDIVIDUAL PIECE PAGES */
+/* ------------------------------------------------------------- */
+
+.resizeBeachPaint {
+    margin-left: 10%;
+    max-width: 30%;
+}
+
+.resizeAofS {
+    margin-left: 10%;
+    max-width: 25%;
+}
+
+.resizeVCP {
+    margin-left: 10%;
+    max-width: 30%;
+}
+
+.resize1i3 {
+    margin-left: 10%;
+    max-width: 25%;
+}
+
+.resizeAP {
+    margin-left: 10%;
+    max-width: 25%;
+}
+
+.resizeCPM {
+    margin-left: 10%;
+    max-width: 25%;
+}
+
+.resizeBC {
+    margin-left: 7%;
+    max-width: 35%;
+    padding-top: 34px;
+}
+
+.resizeDP {
+    margin-left: 7%;
+    max-width: 30%;
+}
+
+.resizeFC {
+    margin-left: 9.5%;
+    max-width: 30%;
+}
