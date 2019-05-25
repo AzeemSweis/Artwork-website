@@ -123,6 +123,13 @@ h3 {
     height: 400px;
 }
 
+.Info-box-LSM {
+    margin-left: 47%;
+    margin-top: -30.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
 
 
 p {
@@ -409,4 +416,9 @@ header {
 .resizeFC {
     margin-left: 9.5%;
     max-width: 30%;
+}
+
+.resizeLSM {
+    margin-left: 9.5%;
+    max-width: 25%;
 }
