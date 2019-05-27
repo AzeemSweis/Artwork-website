@@ -130,6 +130,41 @@ h3 {
     height: 400px;
 }
 
+.Info-box-LS {
+    margin-left: 47%;
+    margin-top: -30.7%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-QS {
+    margin-left: 47%;
+    margin-top: -27.9%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-SPS {
+    margin-left: 47%;
+    margin-top: -29.9%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-SL {
+    margin-left: 47%;
+    margin-top: -30.9%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.Info-box-WS {
+    margin-left: 47%;
+    margin-top: -27.9%;
+    max-width: 600px;
+    height: 400px;
+}
+
 
 
 p {
@@ -421,4 +456,29 @@ header {
 .resizeLSM {
     margin-left: 9.5%;
     max-width: 25%;
+}
+
+.resizeLS {
+    margin-left: 9.5%;
+    max-width: 26%;
+}
+
+.resizeQS {
+    margin-left: 9.5%;
+    max-width: 28%;
+}
+
+.resizeSPS {
+    margin-left: 9.5%;
+    max-width: 25%;
+}
+
+.resizeSL {
+    margin-left: 9.5%;
+    max-width: 25%;
+}
+
+.resizeWS {
+    margin-left: 9.5%;
+    max-width: 27%;
 }
